@@ -1,7 +1,6 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-from PIL import Image
 import time
 
 def load_lottieurl(url):
@@ -47,8 +46,7 @@ with st.container():
     
     with col1:
         st.subheader("What I do?")
-        st.title("I develop")
-        st.write("feelings in women's hearts ;)")  
+        st.title("I develop") 
         st.write("")
         st.write("Frankly, I'm exploring various fields of the software industry such as Web/App Development, Cybersecurity, Web3 etc")
         st.write("I am thrilled to embark on the journey of learning to develop and hopefully join MDGspace.")
